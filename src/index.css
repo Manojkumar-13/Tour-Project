@@ -1,0 +1,64 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+
+
+.btn-delete{
+  display: block;
+  background-color:hsl(240, 100%, 7%);
+  color: white;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.btn-delete:hover{
+  opacity: 0.5;
+}
+main{
+  margin: 2rem auto;
+  max-width: 90%;
+}
+.loading{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  margin: 2rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight:bolder;
+  border-bottom: 2px solid black;
+}
+.singleTour{
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 8px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 10px 10px 10px hsl(0, 0%, 80%);
+}
+img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+h4{
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+.tour-price{
+font-size: 1.5rem;
+}
+p{
+  font-size: 1.2rem;
+}
