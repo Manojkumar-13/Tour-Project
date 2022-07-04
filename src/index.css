@@ -7,9 +7,12 @@
 html{
   font-size: 16px;
 }
+.btn{
+
+}
 
 
-.btn-delete{
+.btn{
   display: block;
   background-color:hsl(240, 100%, 7%);
   color: white;
@@ -20,7 +23,7 @@ html{
   text-transform: capitalize;
   cursor: pointer;
 }
-.btn-delete:hover{
+.btn:hover{
   opacity: 0.5;
 }
 main{
@@ -61,4 +64,10 @@ font-size: 1.5rem;
 }
 p{
   font-size: 1.2rem;
+}
+.btn-read{
+  color: blue;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
 }
